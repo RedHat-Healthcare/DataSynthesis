@@ -1397,7 +1397,7 @@ ALTER TABLE public.refdata_codesetstructures ALTER COLUMN "CodeSetStructuresID" 
 
 CREATE TABLE public.refdata_countries (
     "CountryID" smallint NOT NULL,
-    idd character varying(5),
+    "IDD" character varying(5),
     "CountryName" character varying(59),
     "CreatedDate" timestamp without time zone DEFAULT now(),
     "StatusID" smallint DEFAULT 1

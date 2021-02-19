@@ -1,4 +1,4 @@
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('93','Afghanistan','2020-07-28 01:37:16.0',1)
 ,('355','Albania','2020-07-28 01:37:16.0',1)
 ,('213','Algeria','2020-07-28 01:37:16.0',1)
@@ -10,7 +10,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('54','Argentina','2020-07-28 01:37:16.0',1)
 ,('374','Armenia','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('297','Aruba','2020-07-28 01:37:16.0',1)
 ,('247','Ascension Island','2020-07-28 01:37:16.0',1)
 ,('61','Australia','2020-07-28 01:37:16.0',1)
@@ -22,7 +22,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('973','Bahrain','2020-07-28 01:37:16.0',1)
 ,('880','Bangladesh','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('375','Belarus','2020-07-28 01:37:16.0',1)
 ,('32','Belgium','2020-07-28 01:37:16.0',1)
 ,('501','Belize','2020-07-28 01:37:16.0',1)
@@ -34,7 +34,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('387','Bosnia and Hercegovina','2020-07-28 01:37:16.0',1)
 ,('267','Botswana','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('55','Brazil','2020-07-28 01:37:16.0',1)
 ,('284','British V.I.','2020-07-28 01:37:16.0',1)
 ,('673','Brunei Darussalm','2020-07-28 01:37:16.0',1)
@@ -46,7 +46,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('1','Canada','2020-07-28 01:37:16.0',1)
 ,('238','CapeVerde Islands','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('1','Caribbean Nations','2020-07-28 01:37:16.0',1)
 ,('345','Cayman Islands','2020-07-28 01:37:16.0',1)
 ,('238','Cape Verdi','2020-07-28 01:37:16.0',1)
@@ -58,7 +58,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('57','Colombia','2020-07-28 01:37:16.0',1)
 ,('269','Comoros and Mayotte','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('242','Congo','2020-07-28 01:37:16.0',1)
 ,('682','Cook Islands','2020-07-28 01:37:16.0',1)
 ,('506','Costa Rica','2020-07-28 01:37:16.0',1)
@@ -70,7 +70,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('246','Diego Garcia','2020-07-28 01:37:16.0',1)
 ,('767','Dominca','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('809','Dominican Republic','2020-07-28 01:37:16.0',1)
 ,('253','Djibouti','2020-07-28 01:37:16.0',1)
 ,('593','Ecuador','2020-07-28 01:37:16.0',1)
@@ -82,7 +82,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('251','Ethiopia','2020-07-28 01:37:16.0',1)
 ,('500','Falkland Islands','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('298','Faroe (Faeroe) Islands (Denmark)','2020-07-28 01:37:16.0',1)
 ,('679','Fiji','2020-07-28 01:37:16.0',1)
 ,('358','Finland','2020-07-28 01:37:16.0',1)
@@ -94,7 +94,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('995','Georgia','2020-07-28 01:37:16.0',1)
 ,('49','Germany','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('233','Ghana','2020-07-28 01:37:16.0',1)
 ,('350','Gibraltar','2020-07-28 01:37:16.0',1)
 ,('30','Greece','2020-07-28 01:37:16.0',1)
@@ -106,7 +106,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('245','Guinea-Bissau','2020-07-28 01:37:16.0',1)
 ,('592','Guyana','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('509','Haiti','2020-07-28 01:37:16.0',1)
 ,('504','Honduras','2020-07-28 01:37:16.0',1)
 ,('852','Hong Kong','2020-07-28 01:37:16.0',1)
@@ -118,7 +118,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('964','Iraq','2020-07-28 01:37:16.0',1)
 ,('353','Ireland (Irish Republic; Eire)','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('972','Israel','2020-07-28 01:37:16.0',1)
 ,('39','Italy','2020-07-28 01:37:16.0',1)
 ,('225','Ivory Coast (La Cote d''Ivoire)','2020-07-28 01:37:16.0',1)
@@ -130,7 +130,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('855','Khmer Republic (Cambodia/Kampuchea)','2020-07-28 01:37:16.0',1)
 ,('686','Kiribati Republic (Gilbert Islands)','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('82','Korea - Republic of (South Korea)','2020-07-28 01:37:16.0',1)
 ,('850','Korea - People''s Republic of (North Korea)','2020-07-28 01:37:16.0',1)
 ,('965','Kuwait','2020-07-28 01:37:16.0',1)
@@ -142,7 +142,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('231','Liberia','2020-07-28 01:37:16.0',1)
 ,('370','Lithuania','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('218','Libya','2020-07-28 01:37:16.0',1)
 ,('423','Liechtenstein','2020-07-28 01:37:16.0',1)
 ,('352','Luxembourg','2020-07-28 01:37:16.0',1)
@@ -154,7 +154,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('960','Maldives','2020-07-28 01:37:16.0',1)
 ,('223','Mali','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('356','Malta','2020-07-28 01:37:16.0',1)
 ,('692','Marshall Islands','2020-07-28 01:37:16.0',1)
 ,('596','Martinique (French Antilles)','2020-07-28 01:37:16.0',1)
@@ -166,7 +166,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('373','Moldova','2020-07-28 01:37:16.0',1)
 ,('33','Monaco','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('976','Mongolia','2020-07-28 01:37:16.0',1)
 ,('473','Montserrat','2020-07-28 01:37:16.0',1)
 ,('212','Morocco','2020-07-28 01:37:16.0',1)
@@ -178,7 +178,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('31','Netherlands','2020-07-28 01:37:16.0',1)
 ,('599','Netherlands Antilles','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('869','Nevis','2020-07-28 01:37:16.0',1)
 ,('687','New Caledonia','2020-07-28 01:37:16.0',1)
 ,('64','New Zealand','2020-07-28 01:37:16.0',1)
@@ -190,7 +190,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('1 670','North Mariana Islands (Saipan)','2020-07-28 01:37:16.0',1)
 ,('47','Norway','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('968','Oman','2020-07-28 01:37:16.0',1)
 ,('92','Pakistan','2020-07-28 01:37:16.0',1)
 ,('680','Palau','2020-07-28 01:37:16.0',1)
@@ -202,7 +202,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('48','Poland','2020-07-28 01:37:16.0',1)
 ,('351','Portugal (includes Azores)','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('1 787','Puerto Rico','2020-07-28 01:37:16.0',1)
 ,('974','Qatar','2020-07-28 01:37:16.0',1)
 ,('262','Reunion (France)','2020-07-28 01:37:16.0',1)
@@ -214,7 +214,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('239','Sao Tome and Principe','2020-07-28 01:37:16.0',1)
 ,('966','Saudi Arabia','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('221','Senegal','2020-07-28 01:37:16.0',1)
 ,('381','Serbia and Montenegro','2020-07-28 01:37:16.0',1)
 ,('248','Seychelles','2020-07-28 01:37:16.0',1)
@@ -226,7 +226,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('252','Somalia','2020-07-28 01:37:16.0',1)
 ,('27','South Africa','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('34','Spain','2020-07-28 01:37:16.0',1)
 ,('94','Sri Lanka','2020-07-28 01:37:16.0',1)
 ,('290','St. Helena','2020-07-28 01:37:16.0',1)
@@ -238,7 +238,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('46','Sweden','2020-07-28 01:37:16.0',1)
 ,('41','Switzerland','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('963','Syrian Arab Republic (Syria)','2020-07-28 01:37:16.0',1)
 ,('689','Tahiti (French Polynesia)','2020-07-28 01:37:16.0',1)
 ,('886','Taiwan','2020-07-28 01:37:16.0',1)
@@ -250,7 +250,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('676','Tonga','2020-07-28 01:37:16.0',1)
 ,('1 868','Trinidad and Tobago','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('216','Tunisia','2020-07-28 01:37:16.0',1)
 ,('90','Turkey','2020-07-28 01:37:16.0',1)
 ,('993','Turkmenistan','2020-07-28 01:37:16.0',1)
@@ -262,7 +262,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('598','Uruguay','2020-07-28 01:37:16.0',1)
 ,('1','USA','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('7','Uzbekistan','2020-07-28 01:37:16.0',1)
 ,('678','Vanuatu (New Hebrides)','2020-07-28 01:37:16.0',1)
 ,('39','Vatican City','2020-07-28 01:37:16.0',1)
@@ -274,7 +274,7 @@ INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES
 ,('381','Yemen (People''s Democratic Republic of)','2020-07-28 01:37:16.0',1)
 ,('967','Yemen Arab Republic (North Yemen)','2020-07-28 01:37:16.0',1)
 ;
-INSERT INTO refdata_countries (IDD,CountryName,CreatedDate,StatusID) VALUES 
+INSERT INTO refdata_countries ("IDD","CountryName","CreatedDate","StatusID") VALUES 
 ('381','Yugoslavia (discontinued)','2020-07-28 01:37:16.0',1)
 ,('243','Zaire','2020-07-28 01:37:16.0',1)
 ,('260','Zambia','2020-07-28 01:37:16.0',1)

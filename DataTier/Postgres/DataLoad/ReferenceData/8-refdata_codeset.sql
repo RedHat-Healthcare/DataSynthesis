@@ -1,4 +1,4 @@
-INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,CreatedUser,CodesetGUID,FieldMapping) VALUES 
+INSERT INTO refdata_codeset ("CodeSetName","IndustryStd","StatusID","CreatedDate","CreatedUser","CodesetGUID","FieldMapping") VALUES 
 ('Race','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Language','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Marital Status','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
@@ -10,7 +10,7 @@ INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,Create
 ,('Admit Source','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('VIP Indicator','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ;
-INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,CreatedUser,CodesetGUID,FieldMapping) VALUES 
+INSERT INTO refdata_codeset ("CodeSetName","IndustryStd","StatusID","CreatedDate","CreatedUser","CodesetGUID","FieldMapping") VALUES 
 ('Discharge Disposition','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Allergy Type','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Allergy Code','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
@@ -22,7 +22,7 @@ INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,Create
 ,('Allergen Code/Mnemonic/Description','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Allergy Severity Code,NULL','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ;
-INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,CreatedUser,CodesetGUID,FieldMapping) VALUES 
+INSERT INTO refdata_codeset ("CodeSetName","IndustryStd","StatusID","CreatedDate","CreatedUser","CodesetGUID","FieldMapping") VALUES 
 ('Allergy Reaction Code','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Sensitivity to Causative Agent Code','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Allergy Clinical Status Code','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
@@ -34,7 +34,7 @@ INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,Create
 ,('Medication Requested Dispense Units','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Medication Give Strength Units','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ;
-INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,CreatedUser,CodesetGUID,FieldMapping) VALUES 
+INSERT INTO refdata_codeset ("CodeSetName","IndustryStd","StatusID","CreatedDate","CreatedUser","CodesetGUID","FieldMapping") VALUES 
 ('Medication Route','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Medication Site','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Document Type','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
@@ -46,7 +46,7 @@ INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,Create
 ,('Service Section','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Result Status','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ;
-INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,CreatedUser,CodesetGUID,FieldMapping) VALUES 
+INSERT INTO refdata_codeset ("CodeSetName","IndustryStd","StatusID","CreatedDate","CreatedUser","CodesetGUID","FieldMapping") VALUES 
 ('Quantity Timing','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Immunization Site','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Immunization Route','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
@@ -58,7 +58,7 @@ INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,Create
 ,('Vaccine Administered Code','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Confidentiality','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ;
-INSERT INTO refdata_codeset (CodeSetName,IndustryStd,StatusID,CreatedDate,CreatedUser,CodesetGUID,FieldMapping) VALUES 
+INSERT INTO refdata_codeset ("CodeSetName","IndustryStd","StatusID","CreatedDate","CreatedUser","CodesetGUID","FieldMapping") VALUES 
 ('Lab Test Value','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Observaton Identifier Code','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
 ,('Observation Units','HL7',1,'2020-07-28 02:04:43.0',NULL,NULL,NULL)
