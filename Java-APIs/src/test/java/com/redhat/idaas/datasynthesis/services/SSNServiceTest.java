@@ -30,7 +30,8 @@ public class SSNServiceTest {
 
         List<DataGeneratedSocialSecurityNumberEntity> list = service.generateSSN(10);
         Assertions.assertEquals(10, list.size());
-        PanacheMock.verify(DataGeneratedSocialSecurityNumberEntity.class, Mockito.times(0)).persist();
+        PanacheMock.verify(DataGeneratedSocialSecurityNumberEntity.class, Mockito.times(10)).persist(Mockito.any(DataGeneratedSocialSecurityNumberEntity.class));
+        PanacheMock.verify(DataGeneratedSocialSecurityNumberEntity.class, Mockito.times(10)).findBySSN(Mockito.anyString());
     }
 
     @Test
@@ -40,7 +41,7 @@ public class SSNServiceTest {
 
         List<DataGeneratedSocialSecurityNumberEntity> list = service.generateSSN(10);
         Assertions.assertEquals(10, list.size());
-        PanacheMock.verify(DataGeneratedSocialSecurityNumberEntity.class, Mockito.times(0)).persist();
+        PanacheMock.verify(DataGeneratedSocialSecurityNumberEntity.class, Mockito.times(0)).persist(Mockito.any(DataGeneratedSocialSecurityNumberEntity.class));
         PanacheMock.verify(DataGeneratedSocialSecurityNumberEntity.class, Mockito.times(10)).findBySSN(Mockito.anyString());
     }
 

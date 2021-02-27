@@ -118,4 +118,10 @@ public class DataGeneratedEinEntity extends io.quarkus.hibernate.orm.panache.Pan
     public static DataGeneratedEinEntity findByEinNumber(String einValue) {
         return find("einValue", einValue).firstResult();
     }
+
+    public static void persist(DataGeneratedEinEntity entity) {
+        if (null != entity) {
+            entity.persist();
+        }
+    }
 }
