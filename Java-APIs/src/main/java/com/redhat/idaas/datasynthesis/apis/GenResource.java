@@ -84,7 +84,7 @@ public class GenResource {
     @GET
     @Path("phonenumber/{count}")
     public void generatePhoneNumbers(@PathParam int count) {
-        throw new UnsupportedOperationException("generatePhoneNumbers Not yet implemented");
+        phoneNumberService.generatePhoneNumber(count);
     }
 
     @GET

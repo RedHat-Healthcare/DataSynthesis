@@ -22,6 +22,13 @@ public class DataGeneratedPhoneNumberEntity extends io.quarkus.hibernate.orm.pan
     private RefDataStatusEntity status;
     private RefDataApplicationEntity registeredApp;
 
+    public DataGeneratedPhoneNumberEntity(){
+    }
+
+    public DataGeneratedPhoneNumberEntity(String phoneNumberValue) {
+        this.phoneNumberValue = phoneNumberValue;
+    }
+
     @Id
     @GeneratedValue
     @Column(name = "PhoneNumberID", nullable = false)
@@ -109,5 +116,11 @@ public class DataGeneratedPhoneNumberEntity extends io.quarkus.hibernate.orm.pan
 
     public static DataGeneratedPhoneNumberEntity findByPhoneNumber(String phoneNumberValue) {
         return find("phoneNumberValue", phoneNumberValue).firstResult();
+    }
+
+    public static void persist(DataGeneratedPhoneNumberEntity entity) {
+        if (null != entity) {
+            entity.persist();
+        }
     }
 }
