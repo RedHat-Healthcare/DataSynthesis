@@ -2,10 +2,12 @@ package com.redhat.idaas.datasynthesis.apis;
 
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
 
 import com.redhat.idaas.datasynthesis.services.AccountNumberService;
 import com.redhat.idaas.datasynthesis.services.AddressService;
@@ -51,45 +53,48 @@ public class GenResource {
     @Inject
     UserIdentityService userIdentityService;
 
-    @GET
+    @POST
     @Path("ssn/{count}")
-    public void generateSSNs(@PathParam int count) {
+    public Response generateSSNs(@PathParam int count) {
         ssnService.generateSSN(count);
+        return Response.status(Status.CREATED).build();
     }
 
-    @GET
+    @POST
     @Path("accountnumber/{count}")
-    public void generateAccountNumbers(@PathParam int count) {
+    public Response generateAccountNumbers(@PathParam int count) {
         throw new UnsupportedOperationException("generateAccountNumbers Not yet implemented");
     }
 
-    @GET
+    @POST
     @Path("creditcard/{count}")
-    public void generateCreditCards(@PathParam int count) {
+    public Response generateCreditCards(@PathParam int count) {
         throw new UnsupportedOperationException("generateCreditCards Not yet implemented");
     }
 
-    @GET
+    @POST
     @Path("birthdate/{count}")
-    public void generateBirthDates(@PathParam int count) {
+    public Response generateBirthDates(@PathParam int count) {
         throw new UnsupportedOperationException("generateBirthDates Not yet implemented");
     }
 
-    @GET
+    @POST
     @Path("ein/{count}")
-    public void generateEINs(@PathParam int count) {
+    public Response generateEINs(@PathParam int count) {
         einService.generateEinNumber(count);
+        return Response.status(Status.CREATED).build();
     }
 
-    @GET
+    @POST
     @Path("phonenumber/{count}")
-    public void generatePhoneNumbers(@PathParam int count) {
+    public Response generatePhoneNumbers(@PathParam int count) {
         phoneNumberService.generatePhoneNumber(count);
+        return Response.status(Status.CREATED).build();
     }
 
-    @GET
+    @POST
     @Path("useridentity/{count}")
-    public void generateUserIdentities(@PathParam int count) {
+    public Response generateUserIdentities(@PathParam int count) {
         throw new UnsupportedOperationException("generateUserIdentities Not yet implemented");
     }
 }
