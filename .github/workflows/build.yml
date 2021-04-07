@@ -24,7 +24,7 @@ jobs:
         key: ${{ runner.os }}-sonar
         restore-keys: ${{ runner.os }}-sonar
     - name: Build and Verify
-      run: cd Java-APIs && ./mvnw -B clean verify --fae --file pom.xml
+      run: cd DataTier-APIs/Java-APIs && ./mvnw -B clean verify --fae --file pom.xml
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@v1.4
       with:
