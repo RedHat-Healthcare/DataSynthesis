@@ -1,29 +1,35 @@
 {
-  "name": "libris",
-  "version": "1.0.0",
-  "description": "A documentation theme for Stackbit",
-  "main": "public/index.html",
-  "scripts": {
-    "build": "unibit build",
-    "develop": "unibit develop",
-    "start": "unibit develop",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "minimal-mistakes",
+  "private": true,
+  "version": "4.23.0",
+  "description": "Minimal Mistakes 2 column Jekyll theme.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stackbit-themes/libris-unibit"
+    "url": "git://github.com/mmistakes/minimal-mistakes.git"
   },
-  "author": "Stackbit",
-  "license": "ISC",
+  "keywords": [
+    "jekyll",
+    "theme",
+    "minimal"
+  ],
+  "author": "Michael Rose",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stackbit-themes/libris-unibit/issues"
+    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
-  "homepage": "https://docs.stackbit.com/unibit/",
-  "dependencies": {
-    "@stackbit/unibit": "~0.1.11",
-    "kind-of": "^6.0.3",
-    "lodash": "^4.17.19",
-    "minimist": "^1.2.5",
-    "nodemon": "^1.19.1"
+  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "uglify-js": "^3.13.6"
+  },
+  "scripts": {
+    "uglify": "uglifyjs assets/js/vendor/jquery/jquery-3.5.1.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/smooth-scroll.js assets/js/plugins/gumshoe.js assets/js/_main.js -c -m -o assets/js/main.min.js",
+    "add-banner": "node banner.js",
+    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
+    "build:js": "npm run uglify && npm run add-banner"
   }
 }
