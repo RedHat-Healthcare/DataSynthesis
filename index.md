@@ -6,10 +6,10 @@ Below are common links to help you navigate all the site content.
 
 | General|Platform Design |
 | -------------|----------|
-|[History](../docs/General/History.md)| |
-|[What Is It](../docs/General/WhatIs.md)| |
-|[Code of Conduct](../docs/General/CodeOfConduct.md)| |
-|[Data Capabilities](../docs/General/DataCapabilities.md)| |
+|[History](/docs/General/History.md)| |
+|[What Is It](/docs/General/WhatIs.md)| |
+|[Code of Conduct](/docs/General/CodeOfConduct.md)| |
+|[Data Capabilities](/docs/General/DataCapabilities.md)| |
 
 ## Licensing and Pricing Model
 Data Synthesis has always intended to be operated under the open/community source model. This means we are providing the code for  
